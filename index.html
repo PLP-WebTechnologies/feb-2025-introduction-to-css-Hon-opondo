@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anka Belle</title>
+    <link rel="stylesheet" href="styles.css"> </head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">Anka Belle</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Find Your Perfect Handbag</h2>
+            <p>Elevate your style with our exquisite collection of handbags.</p>
+            <button onclick="window.location.href='#collections'">Shop Now</button>
+        </section>
+
+        <section id="collections">
+            <h2>Our Collections</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://images.pexels.com/photos/1078818/pexels-photo-1078818.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Elegant Leather Handbag">
+                    <h3>Elegant Leather Handbag</h3>
+                    <p>Ksh.</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Stylish Crossbody Bag">
+                    <h3>Stylish Crossbody Bag</h3>
+                    <p>Ksh.</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.pexels.com/photos/207878/pexels-photo-207878.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Classic Clutch">
+                    <h3>Classic Clutch</h3>
+                    <p>Ksh.</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.pexels.com/photos/164721/pexels-photo-164721.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Tote Bag">
+                    <h3>Tote Bag</h3>
+                    <p>Ksh.</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+             <button onclick="window.location.href='#collections'" class="view-all-button">View All</button>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p> We at Anka Belle are dedicated to providing high-quality, fashionable handbags for every occasion.  We believe that a handbag is not just an accessory, but a statement of personal style.  Our collections are carefully curated to offer a wide variety of designs, materials, and colors to suit every taste.
+            </p>
+            <p>
+                We are committed to excellent craftsmanship and customer satisfaction.  Explore our collections and find the perfect handbag to complement your unique style.
+            </p>
+
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: .com</p>
+            <p>Phone: +2540110724303</p>
+             <form action="/contact" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Anka Belle. All rights reserved.</p>
+    </footer>
+</body>
+</html>
